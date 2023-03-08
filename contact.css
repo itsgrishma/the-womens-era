@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+}
+.background
+{
+    position:relative;
+}
+.heading
+{
+    position:fixed;
+    top:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    right:200px;
+    left:190px;
+    color:#610000;
+    cursor:pointer;
+}
+.heading:hover
+{
+    background-color:#610000;
+    color:white;
+    top:0;
+    right:200px;
+    left:190px;
+    padding-bottom: 10px;
+    transition:all 0.35s;
+}
+
+.name
+{
+    font-size:85px;
+    font-family: mate sc;
+}
+.opening
+{
+    font-size:35px;
+    font-family: koho;
+}
+.sidebar{
+    color:white;
+    position:absolute;
+    left:0px;
+    z-index: 2;
+}
+.home {
+    position:fixed;
+    top:60px;
+    color:white;
+    font-size:20px;
+    font-family: koho;
+    font-weight: bold;
+    cursor:pointer;
+    padding:20px;
+    border-radius: 10px;
+}
+.home:hover{
+    text-decoration: underline;
+    background-color: #610000;
+}
+.contact {
+    position:fixed;
+    top:200px;
+    right:500px;
+    left:600px;
+    color:white;
+    font-size:30px;
+    font-family: koho;
+    font-weight: bold;
+    cursor:pointer;
+    padding:20px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+.contact-text{
+    color:white;
+    font-family: koho;
+    font-size:25px;
+    position:absolute;
+    top:250px;
+    right:200px;
+    left:500px;
+}
+.services{
+    top:280px;
+    position:fixed;
+    color:white;
+    font-size:20px;
+    font-family: koho;
+    font-weight: bold;
+    padding:20px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.services:hover{
+    text-decoration: underline;
+    background-color: #610000;
+}
+.about {
+    position:fixed;
+    top:170px;
+    color:white;
+    font-size:20px;
+    font-family: koho;
+    font-weight: bold;
+    cursor:pointer;
+    padding:20px;
+    border-radius: 10px;
+}
+.about:hover{
+    text-decoration: underline;
+    background-color: #610000;
+}
