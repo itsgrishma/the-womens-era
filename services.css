@@ -1,122 +1,82 @@
-body{
-    background-color: black;
+
+/* Utilities */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.background
-{
-    position:relative;
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #27191F;
 }
-.heading
-{
-    position:fixed;
-    top:10px;
-    display:flex;
-    flex-direction: column;
+
+/* Navbar */
+#nav-bar a {
+    color: #ccc;
+    text-decoration: none;
+}
+#nav-bar h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 40px;
+}
+
+
+#nav-bar ul {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
     align-items: center;
-    right:200px;
-    left:190px;
-    color:#610000;
-    cursor:pointer;
+    margin-top: 40px;
 }
-.heading:hover
-{
-    background-color:#610000;
-    color:white;
-    top:0;
-    right:200px;
-    left:190px;
-    padding-bottom: 10px;
-    transition:all 0.35s;
+#nav-bar li a {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+#nav-bar li a:hover,
+#nav-bar li a.current {
+    background: #ccc;
+    color:#27191F;
+    font-weight: bold;
 }
 
-.name
-{
-    font-size:85px;
-    font-family: mate sc;
-}
-.opening
-{
-    font-size:35px;
-    font-family: koho;
-}
-.sidebar{
-    color:white;
-    position:absolute;
-    left:0px;
-    z-index: 2;
-}
-.home {
-    position:fixed;
-    top:60px;
-    color:white;
-    font-size:20px;
-    font-family: koho;
-    font-weight: bold;
-    cursor:pointer;
-    padding:20px;
-    border-radius: 10px;
-}
-.home:hover{
-    text-decoration: underline;
-    background-color: #610000;
-}
-.services {
-    position:relative;
-    top:270px;
-    right:500px;
-    left:500px;
-    color:white;
-    font-size:30px;
-    font-family: koho;
-    font-weight: bold;
-    cursor:pointer;
-    padding:20px;
-    border-radius: 10px;
-    text-decoration: underline;
-}
-.about {
-    position:fixed;
-    top:170px;
-    color:white;
-    font-size:20px;
-    font-family: koho;
-    font-weight: bold;
-    cursor:pointer;
-    padding:20px;
-    border-radius: 10px;
-}
-.about:hover{
-    text-decoration: underline;
-    background-color: #610000;
-}
-.contact {
-    position:fixed;
-    top:280px;
-    color:white;
-    font-size:20px;
-    font-family: koho;
-    font-weight: bold;
-    cursor:pointer;
-    padding:20px;
-    border-radius: 10px;
-}
-.contact:hover{
-    text-decoration: underline;
-    background-color: #610000;
 
+/* Services description */
+#description .services {
+    height: 600px;
+    background: url(/images/pic-6.jpg) no-repeat center center/cover;
+    color:#ccc;
+    margin-top: 105px;
+    cursor: pointer;
 }
-.services-text{
-    color:white;
-    font-family: koho;
-    font-size:25px;
-    position:absolute;
-    top:400px;
-    right:200px;
-    left:200px;
+
+#description .services ul {
+    list-style: none;
 }
-.services-description{
-    color:white;
-    font-family: koho;
-    font-size:25px;
-    position:absolute;
-    top:900px;
+
+#description .services .container-1 li:hover,
+#description .services .container-2 li:hover {
+    color: rgb(101, 96, 96);
+}
+
+#description .services {
+    display: flex;
+    justify-content: space-between;
+}
+
+#description .services .container-1 li h2,
+#description .services .container-2 li h2 {
+    padding: 60px;
+}
+
+/*Main Footer*/
+#main-footer p {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background: #27191F;
+    padding: 20px;
 }

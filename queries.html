@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the most extraordinary parlour in Kathmandu.">
+    <meta name="keywords" content="beauty services, cosmetics, new beauty parlour">
+    <title>Query</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="queries.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="mobile.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="nav-bar">
+
+        <!-- Container -->
+        <div class="container">
+                <h1><a href="index.html">THE WOMENS ERA</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="current" href="queries.html">Queries</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <!-- Form -->
+    <section id="contact-form">
+        <div class="container">
+            <h2 class="l-Heading">Queries</h2>
+            <p>Please fill out the form for any queries</p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">NAME</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">QUERY</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    
+
+    <!-- Mapin footer -->
+    <footer id="main-footer">
+        <p>
+            womens era; 2023, All Rights Reserved
+        </p>
+    </footer>
+</body>
+</html>
