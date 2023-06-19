@@ -1,12 +1,68 @@
+/* Utilities */
+/* Social links */
+.social-links svg {
+    width: 10px;
+    height: 10px;
+}
+
+/* Header */
+
+#nav-bar h1 {
+    font-size: 30px;
+}
+
+#nav-bar ul {
+    font-size: 15px;
+    flex-direction: column;
+    margin: 0;
+}
 
 #navbar ul li a {
-    padding:5px;
-    border-bottom: #444 dotted 1px;
+    border: #9a9898 solid 3px;
 }
-#nav-bar ul {
+
+
+#main-footer {
+    font-size: 0.5rem;
+}
+
+/* Contact */
+.box {
+    float: none;
     width: 100%;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 40px;
+    border: #9a9898 dotted 1px;
+    margin: 0;
+}
+
+/* Services */
+#description .services {
+    background-image: none;
+    height: 350px;
+}
+
+#description .services ul {
+    font-size: 0.75rem;
+}
+
+#description .services .container-1 li h2,
+#description .services .container-2 li h2 {
+    padding: 20px;
+}
+
+/* About */
+#testimonials .testimonial p {
+    font-size: 0.75rem;
+}
+#testimonials .testimonial {
+    margin-bottom: 40px;
+}
+
+
+/* Queries */
+#Query-form .container .btn {
+    font-size: 0.75rem;
+}
+
+#Query-form label {
+    font-size: 0.75rem;
 }

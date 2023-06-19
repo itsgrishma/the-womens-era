@@ -1,4 +1,4 @@
-/* Utilities */
+/* Main-Styling */
 
 * {
     padding: 0;
@@ -40,6 +40,7 @@ body {
     padding: 20px;
     text-align: center;
     cursor: pointer;
+    line-height: 5rem;
 }
 #nav-bar li a:hover,
 #nav-bar li a.current {
@@ -49,44 +50,69 @@ body {
 }
 
 
-/*Contact Form*/
+/* Social links column */
 
-#contact-form .container h2,
-#contact-form .container p {
+.social-links {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.social-links svg {
+    width: 20px;
+    height: 20px;
+}
+
+.social-links a {
+    list-style: none;
+    display: inline-block;
+    transition: 0.3s;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+/*Query Form*/
+
+#Query-form .container h2,
+#Query-form .container p {
     text-align: center;
 }
 
-#contact-form .container h2 {
+#Query-form .container h2 {
     font-size: 50px;
     margin-bottom: 10px;
 }
 
-#contact-form .container p {
+#Query-form .container p {
     margin-bottom: 50px;
 }
 
-#contact-form .form-group {
+#Query-form .form-group {
     margin-bottom: 20px;
 }
 
-#contact-form label {
+#Query-form label {
     display: block;
     margin-bottom: 5px;
 }
 
-#contact-form input,
-#contact-form textarea {
+#Query-form input,
+#Query-form textarea {
     width:100%;
     padding:10px;
     border :1px #ddd solid;
 
 }
 
-#contact-form textarea {
+#Query-form textarea {
     height: 200px;
 }
 
-#contact-form .container .btn {
+#Query-form .container .btn {
     background: #27191F;
     color: #ccc;
     border: solid;
@@ -95,15 +121,14 @@ body {
     font-size: 1.5rem;
 }
 
-#contact-form .container .btn:hover {
+#Query-form .container .btn:hover {
     color: #27191F;
     background: #ccc;
 }
 
 /*Main Footer*/
 #main-footer p {
-    position: relative;
-    bottom: 0;
+    position: sticky;
     text-align: center;
     color: #fff;
     background:#27191F;

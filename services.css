@@ -1,5 +1,5 @@
 
-/* Utilities */
+/* Main-Styling */
 * {
     padding: 0;
     margin: 0;
@@ -34,12 +34,38 @@ body {
     padding: 20px;
     text-align: center;
     cursor: pointer;
+    line-height: 5rem;
 }
 #nav-bar li a:hover,
 #nav-bar li a.current {
     background: #ccc;
     color:#27191F;
     font-weight: bold;
+}
+
+/* Social links column */
+
+.social-links {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.social-links svg {
+    width: 20px;
+    height: 20px;
+}
+
+.social-links a {
+    list-style: none;
+    display: inline-block;
+    transition: 0.3s;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
 }
 
 
@@ -73,10 +99,9 @@ body {
 
 /*Main Footer*/
 #main-footer p {
-    position: relative;
-    bottom: 0;
+    position: sticky;
     text-align: center;
     color: #fff;
-    background: #27191F;
+    background:#27191F;
     padding: 20px;
 }
