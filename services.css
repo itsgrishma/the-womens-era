@@ -11,6 +11,13 @@ body {
 }
 
 /* Navbar */
+
+#nav-bar p {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
 #nav-bar a {
     color: #ccc;
     text-decoration: none;
@@ -72,7 +79,6 @@ body {
 /* Services description */
 #description .services {
     height: 600px;
-    background: url(/images/pic-6.jpg) no-repeat center center/cover;
     color:#ccc;
     margin-top: 105px;
     cursor: pointer;

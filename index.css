@@ -14,6 +14,13 @@ body {
 }
 
 /* Navbar */
+
+#nav-bar p {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
 #nav-bar a {
     color: #ccc;
     text-decoration: none;
@@ -75,16 +82,17 @@ body {
 
 
 /* Description-img */
-#description .container p {
-    background: url(/images/pic2.jpg) no-repeat center center/cover;
-    height:1600px;
+#description img {
+    width: 100%;
+    height:1200px;
     color: #27191F;
-    padding:40px 0;
+    padding-top:20px;
     margin-top: 105px;
     font-size: 70px;
     font-weight: bold;
     text-align: center;
 }
+
 
 
 /* Feature boxes */

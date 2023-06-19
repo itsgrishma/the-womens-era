@@ -17,6 +17,13 @@ body {
 
 
 /* Navbar */
+
+#nav-bar p {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
 #nav-bar a {
     color: #ccc;
     text-decoration: none;

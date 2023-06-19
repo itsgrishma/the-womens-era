@@ -26,6 +26,11 @@
     font-size: 0.5rem;
 }
 
+/* Index */
+#description img {
+    height: 700px;
+}
+
 /* Contact */
 .box {
     float: none;
