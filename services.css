@@ -1,0 +1,113 @@
+
+/* Main-Styling */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #27191F;
+}
+
+/* Navbar */
+
+#nav-bar p {
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#nav-bar a {
+    color: #ccc;
+    text-decoration: none;
+}
+#nav-bar h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 40px;
+}
+
+
+#nav-bar ul {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+#nav-bar li a {
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 5rem;
+}
+#nav-bar li a:hover,
+#nav-bar li a.current {
+    background: #ccc;
+    color:#27191F;
+    font-weight: bold;
+}
+
+/* Social links column */
+
+.social-links {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.social-links svg {
+    width: 20px;
+    height: 20px;
+}
+
+.social-links a {
+    list-style: none;
+    display: inline-block;
+    transition: 0.3s;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Services description */
+#description .services {
+    height: 600px;
+    color:#ccc;
+    margin-top: 105px;
+    cursor: pointer;
+}
+
+#description .services ul {
+    list-style: none;
+}
+
+#description .services .container-1 li:hover,
+#description .services .container-2 li:hover {
+    color: rgb(101, 96, 96);
+}
+
+#description .services {
+    display: flex;
+    justify-content: space-between;
+}
+
+#description .services .container-1 li h2,
+#description .services .container-2 li h2 {
+    padding: 60px;
+}
+
+/*Main Footer*/
+#main-footer p {
+    position: sticky;
+    text-align: center;
+    color: #fff;
+    background:#27191F;
+    padding: 20px;
+}
