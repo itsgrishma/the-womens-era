@@ -11,6 +11,7 @@ console.log(fullname, email);
 
 
 
+
 form.addEventListener("submit", function(event) {
     if(fullname.value.length == 0) {
         fullname.nextElementSibling.innerText = "Fullname is empty!";

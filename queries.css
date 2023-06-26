@@ -98,41 +98,37 @@ body {
     margin-bottom: 50px;
 }
 
-#Query-form .form-group {
-    margin-bottom: 20px;
-}
-
-#Query-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-#Query-form input,
-#Query-form textarea {
-    width:100%;
-    padding:10px;
-    border :1px #ddd solid;
-
-}
-
-#Query-form textarea {
-    height: 200px;
-}
-
-#Query-form .container .btn {
-    background: #27191F;
-    color: #ccc;
-    border: solid;
+.form-box input,
+.form-box textarea {
+    width: 100%;
     padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-#Query-form .container .btn:hover {
+.form-field {
+    margin-bottom: 16px;
+}
+
+.form-box label {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.form-box textarea { height: 140px; }
+
+.form-box input[type*="submit"] {
+    width: auto;
+    padding: 14px 32px;
+    background-color: #ccc;
     color: #27191F;
-    background: #ccc;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
+.form-box input[type*="submit"]:hover {
+    background-color: #9f9c9c;
+}
 /*Main Footer*/
 #main-footer p {
     position: sticky;
