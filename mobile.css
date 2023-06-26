@@ -31,6 +31,11 @@
     height: 700px;
 }
 
+#features .box {
+    float: none;
+    width: 100%;
+}
+
 /* Contact */
 .box {
     float: none;
